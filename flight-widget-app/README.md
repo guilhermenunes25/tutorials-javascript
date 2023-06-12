@@ -1,4 +1,4 @@
-# Analog-clock
+# Flight-Widget
 
 A starter code along project with a YouTube tutorial by Ania Kubów.
 
