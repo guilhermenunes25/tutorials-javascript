@@ -12,4 +12,4 @@ A starter code along project with a YouTube tutorial by Ania Kubów.
 
 # Source
 
-[Build a ROTATING flight widget with JavaScript!](https://www.youtube.com/watch?v=xs5aOs-Wpxw&list=LL&index=8)
+[Build a ROTATING flight widget with JavaScript!](https://www.youtube.com/watch?v=xs5aOs-Wpxw&list=LL&index=8).

@@ -10,4 +10,4 @@ A starter code along project with a YouTube tutorial by Ania Kubów.
 
 # Source
 
-[The EASIEST JavaScript Calculator (Super simple!)](https://www.youtube.com/watch?v=8IxIyI3JomE&list=LL&index=12)
+[The EASIEST JavaScript Calculator (Super simple!)](https://www.youtube.com/watch?v=8IxIyI3JomE&list=LL&index=12).
