@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Holiday Finder</title>
+  </head>
+  <body>
+    <div id="message">Put a message here</div>
+    <!-- the output will be displayed inside this element -->
+    <script>
+      // the browse will wait until the HTML is rendered before running the script.
+      const dt = new Date(); // the Date function finds out the current Date. With the key word 'new' it returns a new date object.
+      const month = dt.getMonth(); // getMonth function runs with the Date returned;
+      let msg; // msg is declared but not initialized;
+      switch (
+        month // the month's variable is passed into the switch case.
+      ) {
+        case 0: //Month counting starts from 0 (January);
+          msg = "January 4 is National Spaghetti Day!";
+          break; // the break statement ends the evaluation and jumps to the next statement.
+        case 1:
+          msg = "February 9 is National Pizza Day!";
+          break;
+        case 2:
+          msg = "March 20 is National Spinach Day!";
+          break;
+        case 5: //The month for June is indexed as 5, not 3. In JavaScript's Date object, the months are zero-based, so January is 0, February is 1, and so on.
+          msg = "June 21 is National Pretzel Day!";
+          break;
+        default: // This line will run if there are no matches.
+          msg = "No holidays this month.";
+        // the break statement isn't necessary here as there are no further cases to skip over.
+      }
+      const el = document.getElementById("message"); //This statement locates the HTML element that will be rendered.
+      el.innerHTML = msg; // this property changes the value of the msg variable.
+    </script>
+  </body>
+</html>
